@@ -9,4 +9,6 @@ Vector sum script using trigonometry (cosine law) and analytic geometry, must pr
   **filename** file name containing vectors data
   
 for generating a file with vectors
-> python vectors.py vectors.txt numberOfVectors
+```
+python vectors.py vectors.txt numberOfVectors
+```
