@@ -24,12 +24,13 @@ def main() -> None:
 
     vectors = []
     for _ in range(args.vector_count):
-        magnitude = round(uniform(1, 100), 2)
+        magnitude = round(uniform(0, 100), 2)
         direction = gen_direction()
         vectors.append(f"{magnitude}\t{direction}")
 
     with open(args.filename, "w") as file:
         file.write("\n".join(vectors))
+        file.write("\n")
 
 if __name__ == "__main__":
     main()
